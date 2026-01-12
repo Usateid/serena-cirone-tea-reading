@@ -21,12 +21,12 @@ export default function StorySelector({
   if (availableStories.length === 0) {
     return (
       <div className="w-full text-center py-8">
-        <p className="text-tea-accent">
+        {/* <p className="text-tea-accent">
           Nessuna storia disponibile per {duration}{" "}
           {duration === 1 ? "minuto" : "minuti"}.
           <br />
           Crea una nuova storia dal pannello admin!
-        </p>
+        </p> */}
       </div>
     );
   }

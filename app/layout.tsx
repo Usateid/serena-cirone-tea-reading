@@ -1,14 +1,24 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
+const APP_NAME = "ReadYourTea";
+const APP_DEFAULT_TITLE =
+  "ReadYourTea - Accompagna il tuo tè con storie rilassanti";
+const APP_DESCRIPTION =
+  "Scegli il tempo di infusione e leggi o ascolta una storia mentre aspetti";
+
 export const metadata: Metadata = {
-  title: "ReadYourTea - Accompagna il tuo tè con storie rilassanti",
-  description: "Scegli il tempo di infusione e leggi o ascolta una storia mentre aspetti",
+  applicationName: APP_NAME,
+  title: APP_DEFAULT_TITLE,
+  description: APP_DESCRIPTION,
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "ReadYourTea",
+    title: APP_NAME,
+  },
+  formatDetection: {
+    telephone: false,
   },
 };
 
