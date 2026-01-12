@@ -34,10 +34,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# PWA
-/public/sw.js
-/public/workbox-*.js
-/public/worker-*.js
-/public/sw.js.map
-/public/workbox-*.js.map
-/public/worker-*.js.map
+# PWA - I file generati devono essere committati per Vercel
+# /public/sw.js
+# /public/workbox-*.js
