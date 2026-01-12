@@ -16,7 +16,7 @@ export default function TimerSelector({
       <h2 className="text-2xl font-semibold mb-6 text-center text-tea-dark">
         Scegli il tempo di infusione
       </h2>
-      <div className="grid grid-cols-5 gap-2 sm:gap-3 max-w-md mx-auto">
+      <div className="grid grid-cols-3 gap-2 max-w-md mx-auto">
         {durations.map((duration) => (
           <button
             key={duration}
