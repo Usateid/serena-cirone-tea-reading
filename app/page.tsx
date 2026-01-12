@@ -60,7 +60,7 @@ export default function Home() {
           duration={duration}
         />
 
-        {selectedStory && (
+        {/* {selectedStory && (
           <div className="w-full max-w-md mx-auto">
             <h2 className="text-xl font-semibold mb-4 text-center text-tea-dark">
               Modalità
@@ -94,7 +94,7 @@ export default function Home() {
               </button>
             </div>
           </div>
-        )}
+        )} */}
 
         <div className="flex justify-center pt-4">
           <button
